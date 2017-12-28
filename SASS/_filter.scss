@@ -1,0 +1,240 @@
+@mixin colorbox(){
+    width:25px;
+    height:25px;
+    display: inline-block;
+}
+
+
+
+
+.filters{
+    margin-top:20px;
+
+    h4{
+        display: inline-block;
+        color: #fff;
+        background: #000;
+        font-size: 1.2em;
+        padding:5px 15px;
+        margin-left: 10px;
+        margin-bottom:0; 
+    }
+
+    .filtertable{
+        background: #fff;
+        padding:15px;
+        justify-content: center;
+
+        .filterleft{
+            padding:0;
+
+            h5{
+                text-align: center;
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+
+            .brandlinks{
+
+                .leftlinks{
+
+                    border-right:1px solid #d2d2d2; 
+
+                    ul{
+                        padding:0;
+                        margin:0;
+                        
+                        li{
+                            display: flex;
+                            justify-content: flex-end;
+
+                            a{
+                                color:#000;
+                                text-decoration: none;
+                            }
+
+                            a:hover{
+                                color:red;
+                            }
+                        }
+                    }
+
+                }
+
+                .rightlinks{
+
+                    ul{
+                        padding:0;
+                        margin:0;
+
+                        li{
+                            display: flex;
+                            justify-content: flex-end;
+
+                            a{
+                                color:#000;
+                                text-decoration: none;
+                            }
+
+                            a:hover{
+                                color:red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .filtermid{
+                padding:0;
+            .people{
+                justify-content: center;
+
+                .person{
+                    margin-top: 3vh;
+                    text-align: center;
+
+                    h3{
+                        
+                        font-size: 2em;
+                    }
+
+                    h6{
+                        
+                        color: red;
+                        font-size: 1.5em;
+                    }
+
+                    p{
+                        font-size: 1em;
+                    }
+
+                    .circle{
+                        position: relative;
+
+                        .peopleimg{
+                            opacity: 1;
+                            display: block;
+                            width:100%;
+                            height:auto;
+                            border-radius: 50%;
+                        }
+                        .trans{
+                            transition: .5s ease;
+                            opacity: 1;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            -ms-transform: translate(-50%, -50%);
+
+                            .transimg{
+                                width:100%;
+                                height:auto;
+                            }
+                        }
+                    }
+                    .circle:hover .peopleimage {
+                        opacity: 0.3;
+                    }
+                      
+                    .circle:hover .trans {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+
+        .filterright{
+            padding:0;
+
+            h5{
+                margin-top:6vh;
+                text-align: left;
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+
+            .colortable{
+                display: table;
+
+                .color1{
+                    @include colorbox();
+                    background: #e80000;
+                }
+                .color2{
+                    @include colorbox();
+                    background: #f6a441;
+                }
+                .color3{
+                    @include colorbox();
+                    background: #668bfe;
+                }
+                .color4{
+                    @include colorbox();
+                    background: #d2f66e;
+                }
+                .color5{
+                    @include colorbox();
+                    background: #630000;
+                }
+                .color6{
+                    @include colorbox();
+                    background: #7c006d;
+                }
+                .color7{
+                    @include colorbox();
+                    background: #242c53;
+                }
+                .color8{
+                    @include colorbox();
+                    background: #488136
+                }
+                .color9{
+                    @include colorbox();
+                    background: #8300dc;
+                }
+                .color10{
+                    @include colorbox();
+                    background: #4a432e;
+                }
+                .color11{
+                    @include colorbox();
+                    background: #041207;
+                }
+                .color12{
+                    @include colorbox();
+                    background: #007714;
+                }
+                .color13{
+                    @include colorbox();
+                    background: #a4399d;
+                }
+                .color14{
+                    @include colorbox();
+                    background: #1e3d79;
+                }
+                .color15{
+                    @include colorbox();
+                    background: #c1aba8;
+                }
+                .color16{
+                    @include colorbox();
+                    background: #f84d00;
+                }
+                .color17{
+                    @include colorbox();
+                    background: #b6f300;
+                }
+                .color18{
+                    @include colorbox();
+                    background: #337875;
+                }
+                .color19{
+                    @include colorbox();
+                    background: #ba8873;
+                }
+            }
+        }
+    }
+}

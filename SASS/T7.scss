@@ -1,0 +1,177 @@
+@import 'filter.scss';
+@import 'menfoot.scss';
+@import 'description.scss';
+@import 'footer.scss';
+
+
+
+
+.connectWordSize{
+    font-size: 0.8em;
+    text-align: right;
+    margin: 0;
+}
+
+
+
+
+body{
+    background: rgb(242, 242, 242);
+}
+
+.row {
+    margin-left:0;
+    margin-right:0;
+}
+
+.connect{
+    justify-content: flex-end;
+    padding:2vh 0;
+
+    .phone{
+        padding:0;
+        p{
+            @extend .connectWordSize;
+        }
+    }
+
+    .mail{
+        padding:0;
+        p{
+            @extend .connectWordSize; 
+        }    
+    }
+}
+
+.logologin{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+    
+    .logo{
+        padding:0;
+        margin-top:2vh;
+
+        #logoimg{
+            width:100%;
+            height:auto;
+        }
+    }
+
+    .login{
+        margin-top:2vh;
+        border:2px solid #fff;
+        padding:6px 0;
+        display: flex;
+        justify-content: space-evenly;
+
+        .btn-group{
+
+            .btn-cart{
+                background: rgb(242, 242, 242);
+                border-right: 3px solid rgb(167, 167, 167);
+                padding:0 6px;
+                outline: none;
+                cursor: pointer;
+
+                .fa-circle{
+                    color:#fff;
+                    
+                }
+
+                .fa-shopping-cart{
+                    color:#000;
+                }
+            }
+
+            .btn-login{
+                background: rgb(242, 242, 242);
+                text-decoration: underline;
+                outline: none;
+                cursor: pointer;
+                overflow: visible;
+            }
+        }
+        .register{
+            margin:auto 0;
+            width:50%;
+
+            .registerbotton{
+                width:100%;
+                cursor: pointer;
+                background: #ee2d1e;
+                color: #fff;
+                text-shadow: none;
+            }
+        }
+    }
+}
+
+
+.linksearch{
+    justify-content: space-around;
+    align-items: baseline;
+    background: #fff;
+    padding:0 15px;
+
+    .bar{
+        padding:0;
+
+        .bg-light{   
+            background: #fff !important;
+            padding: 0;
+
+            .navbar-toggler{
+                margin:10px 0;
+                border:2px solid #d2d2d2;
+                background: #fff;
+            }
+
+            .navbar-nav{
+                padding: 0;
+
+                a{
+                    margin:15px 0;
+                    padding:0 1vw;
+                    color:#000;
+                    font-weight: bold;
+                    border-right: solid 2px #d2d2d2; 
+                }
+            }
+        }
+    }
+
+    .searchbox{
+        border:2px solid #d2d2d2;
+        border-radius:20px;
+        display: flex;
+
+        a{
+            color: #d2d2d2 !important;
+        }
+
+        .ui-input-text{
+            margin:0;
+            min-height: 0;
+            border:none;
+
+            input{
+                min-height:0;
+            }
+        }
+
+        .ui-shadow-inset{
+            -webkit-box-shadow:none;
+            box-shadow:none;
+        }
+
+        .search{
+            width:85%;
+            border: none;
+            color:#d2d2d2;
+            outline: none;
+            padding:0;
+
+        }
+    }
+}

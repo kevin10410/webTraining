@@ -1,0 +1,518 @@
+.filters {
+  margin-top: 20px; }
+  .filters h4 {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    font-size: 1.2em;
+    padding: 5px 15px;
+    margin-left: 10px;
+    margin-bottom: 0; }
+  .filters .filtertable {
+    background: #fff;
+    padding: 15px;
+    justify-content: center; }
+    .filters .filtertable .filterleft {
+      padding: 0; }
+      .filters .filtertable .filterleft h5 {
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold; }
+      .filters .filtertable .filterleft .brandlinks .leftlinks {
+        border-right: 1px solid #d2d2d2; }
+        .filters .filtertable .filterleft .brandlinks .leftlinks ul {
+          padding: 0;
+          margin: 0; }
+          .filters .filtertable .filterleft .brandlinks .leftlinks ul li {
+            display: flex;
+            justify-content: flex-end; }
+            .filters .filtertable .filterleft .brandlinks .leftlinks ul li a {
+              color: #000;
+              text-decoration: none; }
+            .filters .filtertable .filterleft .brandlinks .leftlinks ul li a:hover {
+              color: red; }
+      .filters .filtertable .filterleft .brandlinks .rightlinks ul {
+        padding: 0;
+        margin: 0; }
+        .filters .filtertable .filterleft .brandlinks .rightlinks ul li {
+          display: flex;
+          justify-content: flex-end; }
+          .filters .filtertable .filterleft .brandlinks .rightlinks ul li a {
+            color: #000;
+            text-decoration: none; }
+          .filters .filtertable .filterleft .brandlinks .rightlinks ul li a:hover {
+            color: red; }
+    .filters .filtertable .filtermid {
+      padding: 0; }
+      .filters .filtertable .filtermid .people {
+        justify-content: center; }
+        .filters .filtertable .filtermid .people .person {
+          margin-top: 3vh;
+          text-align: center; }
+          .filters .filtertable .filtermid .people .person h3 {
+            font-size: 2em; }
+          .filters .filtertable .filtermid .people .person h6 {
+            color: red;
+            font-size: 1.5em; }
+          .filters .filtertable .filtermid .people .person p {
+            font-size: 1em; }
+          .filters .filtertable .filtermid .people .person .circle {
+            position: relative; }
+            .filters .filtertable .filtermid .people .person .circle .peopleimg {
+              opacity: 1;
+              display: block;
+              width: 100%;
+              height: auto;
+              border-radius: 50%; }
+            .filters .filtertable .filtermid .people .person .circle .trans {
+              transition: .5s ease;
+              opacity: 1;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%); }
+              .filters .filtertable .filtermid .people .person .circle .trans .transimg {
+                width: 100%;
+                height: auto; }
+          .filters .filtertable .filtermid .people .person .circle:hover .peopleimage {
+            opacity: 0.3; }
+          .filters .filtertable .filtermid .people .person .circle:hover .trans {
+            opacity: 0; }
+    .filters .filtertable .filterright {
+      padding: 0; }
+      .filters .filtertable .filterright h5 {
+        margin-top: 6vh;
+        text-align: left;
+        font-size: 1.2em;
+        font-weight: bold; }
+      .filters .filtertable .filterright .colortable {
+        display: table; }
+        .filters .filtertable .filterright .colortable .color1 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #e80000; }
+        .filters .filtertable .filterright .colortable .color2 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #f6a441; }
+        .filters .filtertable .filterright .colortable .color3 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #668bfe; }
+        .filters .filtertable .filterright .colortable .color4 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #d2f66e; }
+        .filters .filtertable .filterright .colortable .color5 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #630000; }
+        .filters .filtertable .filterright .colortable .color6 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #7c006d; }
+        .filters .filtertable .filterright .colortable .color7 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #242c53; }
+        .filters .filtertable .filterright .colortable .color8 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #488136; }
+        .filters .filtertable .filterright .colortable .color9 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #8300dc; }
+        .filters .filtertable .filterright .colortable .color10 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #4a432e; }
+        .filters .filtertable .filterright .colortable .color11 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #041207; }
+        .filters .filtertable .filterright .colortable .color12 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #007714; }
+        .filters .filtertable .filterright .colortable .color13 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #a4399d; }
+        .filters .filtertable .filterright .colortable .color14 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #1e3d79; }
+        .filters .filtertable .filterright .colortable .color15 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #c1aba8; }
+        .filters .filtertable .filterright .colortable .color16 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #f84d00; }
+        .filters .filtertable .filterright .colortable .color17 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #b6f300; }
+        .filters .filtertable .filterright .colortable .color18 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #337875; }
+        .filters .filtertable .filterright .colortable .color19 {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background: #ba8873; }
+
+.footwearpage {
+  margin-top: 5vh;
+  justify-content: space-between; }
+  .footwearpage h1 {
+    margin: 0;
+    font-size: 2.5em; }
+  .footwearpage p {
+    font-size: 1.2em;
+    margin: 0; }
+  .footwearpage .menfoot {
+    padding: 0;
+    margin: 0; }
+  .footwearpage .shoes {
+    padding: 0;
+    margin-top: 3vh; }
+    .footwearpage .shoes .timberland {
+      margin-bottom: 15px; }
+      .footwearpage .shoes .timberland .timberlandshoe {
+        width: 100%;
+        height: auto; }
+    .footwearpage .shoes .menu {
+      justify-content: space-between; }
+      .footwearpage .shoes .menu .menupicture {
+        padding: 0;
+        width: 30%; }
+        .footwearpage .shoes .menu .menupicture .menuimg {
+          width: 100%;
+          object-fit: contain; }
+      .footwearpage .shoes .menu .menupicture:hover {
+        transition: 0.5s;
+        border: solid 8px red; }
+  .footwearpage .detail {
+    padding: 0;
+    margin-top: 3vh; }
+    .footwearpage .detail .rating {
+      border-bottom: 1px solid #d9d9d9;
+      padding-bottom: 10px; }
+      .footwearpage .detail .rating .starmoney {
+        padding: 0; }
+        .footwearpage .detail .rating .starmoney .star {
+          position: relative;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #d9d9d9; }
+          .footwearpage .detail .rating .starmoney .star .checked {
+            color: #ee2d1e; }
+          .footwearpage .detail .rating .starmoney .star p {
+            font-style: italic;
+            font-size: 0.5em;
+            margin: 0; }
+          .footwearpage .detail .rating .starmoney .star .discout {
+            position: absolute;
+            right: 0;
+            bottom: 5px;
+            padding: 5px 15px;
+            background: #ee2d1e; }
+            .footwearpage .detail .rating .starmoney .star .discout p {
+              font-size: 1.2em;
+              font-style: initial;
+              text-decoration: line-through;
+              color: #fff;
+              letter-spacing: 0.1em; }
+        .footwearpage .detail .rating .starmoney .money {
+          text-align: center;
+          background: #fff; }
+          .footwearpage .detail .rating .starmoney .money h5 {
+            font-size: 2.5em;
+            margin: 0; }
+      .footwearpage .detail .rating .save {
+        padding: 0;
+        text-align: center; }
+        .footwearpage .detail .rating .save p .blod {
+          font-weight: bold; }
+        .footwearpage .detail .rating .save .pig {
+          display: block;
+          width: 55%;
+          height: auto;
+          margin: 0 auto; }
+    .footwearpage .detail .texts {
+      text-align: right;
+      padding-top: 10px; }
+      .footwearpage .detail .texts p {
+        font-size: 0.5em;
+        color: #b8b8b8; }
+    .footwearpage .detail .ship {
+      text-align: right;
+      padding: 20px 0; }
+      .footwearpage .detail .ship .shipcart {
+        display: inline-block;
+        width: 30px;
+        height: auto; }
+      .footwearpage .detail .ship p {
+        display: inline-block;
+        vertical-align: middle; }
+    .footwearpage .detail .sizeqty {
+      text-align: right; }
+      .footwearpage .detail .sizeqty .size {
+        display: inline-block;
+        text-align: left; }
+        .footwearpage .detail .sizeqty .size .label {
+          font-style: italic; }
+      .footwearpage .detail .sizeqty .qty {
+        display: inline-block;
+        text-align: left; }
+        .footwearpage .detail .sizeqty .qty .label {
+          font-style: italic; }
+    .footwearpage .detail .addcart {
+      text-align: right;
+      padding: 15px 0; }
+      .footwearpage .detail .addcart .cartbtn {
+        display: inline-block;
+        background: #ee2d1e;
+        padding: 10px 50px;
+        border-radius: 5px; }
+        .footwearpage .detail .addcart .cartbtn a {
+          text-shadow: none;
+          color: #fff;
+          text-decoration: none;
+          font-size: 1em;
+          letter-spacing: 0.1em; }
+    .footwearpage .detail .sharebox {
+      text-align: right; }
+      .footwearpage .detail .sharebox p {
+        font-size: 1em;
+        font-weight: bold; }
+      .footwearpage .detail .sharebox .sharelink {
+        padding: 5px 15px;
+        background: #fff;
+        display: inline-flex; }
+        .footwearpage .detail .sharebox .sharelink a {
+          padding: 0 2px; }
+        .footwearpage .detail .sharebox .sharelink .tri {
+          height: 24px;
+          line-height: 24px;
+          display: inline-block;
+          text-align: center;
+          position: relative;
+          background-color: #eeecec;
+          margin-left: 15px;
+          padding: 0 5px; }
+        .footwearpage .detail .sharebox .sharelink .tri:before {
+          border-color: transparent #eeecec transparent transparent;
+          border-style: solid;
+          border-width: 12px;
+          position: absolute;
+          content: '';
+          height: 0px;
+          left: -24px; }
+
+.description {
+  margin-top: 5vh;
+  margin-bottom: 10vh; }
+  .description .title .titlelist {
+    margin-right: 5px;
+    background: #fff;
+    font-size: 1em;
+    padding: 20px;
+    border: solid 1px #A7A7A7; }
+    .description .title .titlelist a {
+      color: #000; }
+  .description .title .titlelist:hover {
+    background: #ee2d1e; }
+    .description .title .titlelist:hover a {
+      color: #fff;
+      text-decoration: none;
+      text-shadow: none; }
+  .description .content {
+    border: solid 1px #A7A7A7;
+    background: #fff;
+    padding: 20px; }
+    .description .content h4 {
+      font-size: 1.5em; }
+    .description .content h5 {
+      font-size: 1em;
+      color: #ee2d1e; }
+    .description .content h6 {
+      font-size: 0.8em; }
+    .description .content p {
+      font-size: 0.8em;
+      color: #b8b8b8; }
+
+.footer {
+  background: #ee2d1e;
+  padding: 30px 0; }
+  .footer .footercontent .footerdata {
+    justify-content: center; }
+    .footer .footercontent .footerdata .footerlogo {
+      padding: 0;
+      display: flex; }
+      .footer .footercontent .footerdata .footerlogo .footerlogoimg {
+        width: 100%;
+        height: auto;
+        object-fit: contain; }
+    .footer .footercontent .footerdata .footerlinkbar {
+      display: flex;
+      padding: 0; }
+      .footer .footercontent .footerdata .footerlinkbar .footerlinkcontent {
+        width: 100%;
+        margin: 5px 0; }
+        .footer .footercontent .footerdata .footerlinkbar .footerlinkcontent .footerlinkleft {
+          padding: 0;
+          display: flex;
+          justify-content: space-around;
+          align-items: center; }
+          .footer .footercontent .footerdata .footerlinkbar .footerlinkcontent .footerlinkleft a {
+            text-shadow: none;
+            font-size: 0.8em;
+            color: white;
+            text-decoration: none; }
+        .footer .footercontent .footerdata .footerlinkbar .footerlinkcontent .footerlinkright {
+          padding: 0;
+          display: flex;
+          justify-content: space-around;
+          align-items: center; }
+          .footer .footercontent .footerdata .footerlinkbar .footerlinkcontent .footerlinkright a {
+            text-shadow: none;
+            font-size: 0.8em;
+            color: white;
+            text-decoration: none; }
+    .footer .footercontent .footerdata .footericon {
+      display: flex;
+      justify-content: space-around;
+      padding: 0; }
+      .footer .footercontent .footerdata .footericon .fa-2x {
+        color: #fff; }
+
+.connectWordSize, .connect .phone p, .connect .mail p {
+  font-size: 0.8em;
+  text-align: right;
+  margin: 0; }
+
+body {
+  background: #f2f2f2; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+.connect {
+  justify-content: flex-end;
+  padding: 2vh 0; }
+  .connect .phone {
+    padding: 0; }
+  .connect .mail {
+    padding: 0; }
+
+.logologin {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5vh; }
+  .logologin .logo {
+    padding: 0;
+    margin-top: 2vh; }
+    .logologin .logo #logoimg {
+      width: 100%;
+      height: auto; }
+  .logologin .login {
+    margin-top: 2vh;
+    border: 2px solid #fff;
+    padding: 6px 0;
+    display: flex;
+    justify-content: space-evenly; }
+    .logologin .login .btn-group .btn-cart {
+      background: #f2f2f2;
+      border-right: 3px solid #a7a7a7;
+      padding: 0 6px;
+      outline: none;
+      cursor: pointer; }
+      .logologin .login .btn-group .btn-cart .fa-circle {
+        color: #fff; }
+      .logologin .login .btn-group .btn-cart .fa-shopping-cart {
+        color: #000; }
+    .logologin .login .btn-group .btn-login {
+      background: #f2f2f2;
+      text-decoration: underline;
+      outline: none;
+      cursor: pointer;
+      overflow: visible; }
+    .logologin .login .register {
+      margin: auto 0;
+      width: 50%; }
+      .logologin .login .register .registerbotton {
+        width: 100%;
+        cursor: pointer;
+        background: #ee2d1e;
+        color: #fff;
+        text-shadow: none; }
+
+.linksearch {
+  justify-content: space-around;
+  align-items: baseline;
+  background: #fff;
+  padding: 0 15px; }
+  .linksearch .bar {
+    padding: 0; }
+    .linksearch .bar .bg-light {
+      background: #fff !important;
+      padding: 0; }
+      .linksearch .bar .bg-light .navbar-toggler {
+        margin: 10px 0;
+        border: 2px solid #d2d2d2;
+        background: #fff; }
+      .linksearch .bar .bg-light .navbar-nav {
+        padding: 0; }
+        .linksearch .bar .bg-light .navbar-nav a {
+          margin: 15px 0;
+          padding: 0 1vw;
+          color: #000;
+          font-weight: bold;
+          border-right: solid 2px #d2d2d2; }
+  .linksearch .searchbox {
+    border: 2px solid #d2d2d2;
+    border-radius: 20px;
+    display: flex; }
+    .linksearch .searchbox a {
+      color: #d2d2d2 !important; }
+    .linksearch .searchbox .ui-input-text {
+      margin: 0;
+      min-height: 0;
+      border: none; }
+      .linksearch .searchbox .ui-input-text input {
+        min-height: 0; }
+    .linksearch .searchbox .ui-shadow-inset {
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+    .linksearch .searchbox .search {
+      width: 85%;
+      border: none;
+      color: #d2d2d2;
+      outline: none;
+      padding: 0; }
+
+/*# sourceMappingURL=T7.css.map */

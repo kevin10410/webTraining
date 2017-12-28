@@ -1,0 +1,232 @@
+
+
+.footwearpage{
+    margin-top:5vh;
+    justify-content: space-between;
+
+    h1{
+        margin:0;
+        font-size: 2.5em;
+    }
+
+    p{
+        font-size: 1.2em;
+        margin:0;
+    }
+
+    .menfoot{
+        padding:0;
+        margin:0;
+    }
+
+    .shoes{
+        padding:0;
+        margin-top:3vh;
+
+        .timberland{
+            margin-bottom: 15px;
+
+            .timberlandshoe{
+                width:100%;
+                height:auto;
+            }
+        }
+        
+        .menu{
+            justify-content: space-between;
+
+            .menupicture{
+                padding:0;
+                width:30%;
+                
+
+                .menuimg{
+                    width:100%;
+                    object-fit: contain;
+                }
+            }
+            .menupicture:hover{
+                transition: 0.5s;
+                border:solid 8px red;
+            }
+        }
+    }
+    .detail{
+        padding:0;
+        margin-top:3vh;
+
+        .rating{
+            border-bottom: 1px solid #d9d9d9;
+            padding-bottom: 10px;
+
+            .starmoney{
+                padding:0;
+
+                .star{
+                    position: relative;
+                    padding-bottom:10px;
+                    border-bottom: 1px solid #d9d9d9;
+
+
+                    .checked{
+                        color:#ee2d1e;
+                    }
+        
+                    p{
+                        font-style:italic;
+                        font-size: 0.5em;
+                        margin:0;
+                    }
+                    
+                    .discout{
+                        position: absolute;
+                        right: 0;
+                        bottom: 5px;
+                        padding:5px 15px;
+                        background: #ee2d1e;
+
+                        p{
+                            font-size: 1.2em;
+                            font-style: initial;
+                            text-decoration: line-through;
+                            color:#fff;
+                            letter-spacing: 0.1em;
+                        
+                            
+                        }
+                    }
+
+                }
+                .money{
+                    text-align: center;
+                    background: #fff;
+
+                    h5{
+                        font-size: 2.5em;
+                        margin:0;
+                    }
+                }
+            } 
+
+            .save{
+                padding:0;
+                text-align: center;
+
+                p{
+                    .blod{
+                        font-weight: bold;
+                    }
+                }
+                
+                .pig{
+                    display: block;
+                    width:55%;
+                    height:auto;
+                    margin:0 auto;
+                }
+
+            }
+        }
+        .texts{
+            text-align: right;
+            padding-top:10px;
+
+            p{
+                font-size: 0.5em;
+                color:#b8b8b8;
+            }
+        }
+        .ship{
+            text-align: right;
+            padding: 20px 0;
+
+            .shipcart{
+                display: inline-block;
+                width:30px;
+                height:auto;
+            }
+            p{
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+        .sizeqty{
+            text-align: right;
+            .size{
+                display: inline-block;
+                text-align: left;
+
+                .label{
+                    font-style: italic;
+                }
+            }
+            .qty{
+                display: inline-block;
+                text-align: left;
+
+                .label{
+                    font-style: italic;
+                }
+            }
+        }
+
+        .addcart{
+            text-align: right;
+            padding:15px 0;
+            
+            .cartbtn{
+                display: inline-block;
+                background: #ee2d1e;
+                padding:10px 50px;
+                border-radius: 5px;
+
+                a{
+                    text-shadow: none;
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 1em;
+                    letter-spacing: 0.1em;
+                }
+            }
+        }
+        .sharebox{
+            text-align: right;
+
+            p{
+                font-size:1em;
+                font-weight: bold;
+            }
+
+            .sharelink{
+                padding:5px 15px;
+                background: #fff;
+                display: inline-flex;
+
+                a{
+                    padding:0 2px;
+                }
+
+                .tri{
+                    height:24px;
+                    line-height: 24px;
+                    display: inline-block;
+                    text-align: center;
+                    position: relative;
+                    background-color: #eeecec;
+                    margin-left:15px;
+                    padding:0 5px;
+                }
+
+                .tri:before{
+                    border-color: transparent #eeecec transparent transparent;
+                    border-style: solid;
+                    border-width: 12px;
+                    position: absolute;
+                    content: '';
+                    height: 0px;
+                    left: -24px;
+                }
+            }
+        }
+    }
+}
